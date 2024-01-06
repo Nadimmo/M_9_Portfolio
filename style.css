@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: fit-content;
+    background-size: contain;
+    background-color: rgb(255, 251, 246);
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+}
+nav > ul{
+    display: flex;
+    margin-left: 600px;
+}
+ul li{
+    list-style: none;
+    font-size: 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+}
+h3{
+    font-size: 30px;
+    color: #000;
+    margin-left: 100px;
+}
+h3 span{
+    color: tomato;
+}
+ul li button{
+    font-size: 22px;
+    color: white
+    ;
+    background-color: tomato;
+    border: none;
+    padding: 5px;
+}
+ul li button:hover{
+    border: 1px solid black;
+}
+header .item{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 40%;
+    margin-top: 240px;
+    margin-left: 100px;
+}
+.text h2{
+    font-size: 28px;
+    opacity: 0.5;
+}
+.text h1{
+    font-size: 56px;
+}
+.text p{
+    font-size: 16px;
+    opacity: 0.3;
+}
+.text #f{
+    font-size: 20px;
+    color: black;
+    background-color: tomato;
+    padding: 8px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+.text #f a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.text .btn{
+    margin-top: 20px;
+}
+.text #d{
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+.text #f:hover{
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+}
+.text #d:hover{
+    background-color: tomato;
+    color: white;
+}
+.img #img{
+    width: 400px;
+    height: 480px;
+    margin-top: 80px;
+    position: relative;
+    margin-left: 120px;
+}
+.img .back{
+    height: auto;
+    position: absolute;
+    margin-top: 238px;
+}
+.back img{
+    width: 520px;
+    height: auto;
+}
+
+.about{
+    background-color: rgb(255, 245, 233);
+    margin: auto;
+    width: 60%;
+    margin-top: 60px
+    ;
+    padding: 60px;
+}
+.about h1, .services h1{
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+}
+.about p{
+    font-size: 12px;
+    color: #000;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 40px;
+}
+.about table{
+    margin: auto;
+    margin-top: 20px;
+}
+table td{
+    padding: 10px;
+}
+table th{
+    opacity: 0.4;
+}
+.about:hover{
+    box-shadow: 5px 5px 5px #555;
+}
+.services{
+    margin-top: 60px;
+}
+.services .skills{
+    display: flex;
+    margin-left: 140px;
+
+}
+
+.services .skill{
+    background-color: rgb(253, 253, 253);
+    width: 180px;
+    height: 280px;
+    border: 1px solid rgb(255, 235, 235);
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+.skill img , h4, p{
+   margin: 10px 10px;
+}
+.skill p{
+    font-size: 14px;
+    opacity: 0.6;
+}
+.services .skill:hover{
+    box-shadow: 10px 10px 10px #555;
+}
+.summary{
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.summary .blogs, .blogs2{
+    margin: auto 20px;
+}
+.summary .blogs2{
+    padding: 20px;
+    margin: 20px;
+}
+.summary .blog{
+    padding: 10px;
+    margin: 10px;
+}
+.summary p{
+    font-size: 12px;
+    opacity: 0.7;
+    width: 300px;
+    padding-right: 50px;
+}
+.summary h6{
+    font-size: 14px;
+    opacity: 0.5;
+}
+.F{
+    margin-left: 40%;
+    color: white;
+    background-color: tomato;
+    padding: 8px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+
+}
+.F a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+}
+.summary .blog:hover{
+    box-shadow: 2px 2px 2px #555;
+}
+.summary .blog:hover>hr{
+    display: none;
+}
+footer{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 245, 233);
+}
+footer .contact{
+    margin-left: 160px;
+    padding-top: 60px;
+}
+footer .icon img{
+    margin: 20px 10px;
+}
+footer form{
+    margin-left: 100px;
+}
+form input,textarea{
+    font-size: 18px;
+    color: #000;
+    padding: 16px;
+    margin: 5px;
+    border: none;
+    width:100%;
+}
+
+#btn{
+    font-size: 20px;
+    color: black;
+    background-color: tomato;
+    padding: 8px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
